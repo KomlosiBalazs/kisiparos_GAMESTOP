@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>ALSÓPOLCOS GAMESTOP</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Kezdőlap</a></li>
+                        <li><a href="#">Termékeink</a></li>
+                        <li><a href="#">Legfrissebek</a></li>
+                        <li><a href="#">Ügyfélszolgálat</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <div class="kosar" id="kosar">
+            0 FT
+        </div>
+
+        <div class="termékbox">
+            <span class="kereso" style="border-radius: 15px;">
+
+            </span>
+
+
+        </div>
+        <div class="left">
+            <span class="NEW">
+                Legfrissebbjeink
+            </span>
+            <div class="container_bal">
+                <div class="row">
+                    <div class="JATEK col-sm-6">
+                        <img src="Mass Effet Andromeda.jpg" alt="MEA">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Mass Effect: Andromeda</strong>
+                        <b>7000FT</b>
+                        <br><button onclick="kosarba(7000)"> kosárba </button>
+                    </div>
+
+                    <div class="JATEK col-sm-6">
+                        <img src="Witcher 3.jpg" alt="W3">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Witcher 3:Wild Hunt</strong>
+                        <b>8000FT</b>
+                        <br><button onclick="kosarba(8000)"> kosárba </button>
+                    </div>
+                    <div class=" JATEK col-sm-6">
+                        <img src="Red Dead Redemtion 2.jpg" alt="Red Dead Redemtion 2">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Red Dead Redemption 2</strong>
+                        <b>13000FT</b>
+                        <br><button onclick="kosarba(13000)"> kosárba </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="container_jobb">
+                <div class="row">
+                    <div class="JATEK col-sm-6">
+                        <img src="Mass Effet Andromeda.jpg" alt="MEA">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Mass Effect: Andromeda</strong>
+                        <b> <br></br>
+                            <br>Gyártó: BioWare</br>
+                            <br>Third Person Shooter</br>
+                            <br>Singleplayer/Multiplayer</br>
+                            <br>RPG</br>
+                            <br>ÁR 7000Ft</br>
+                            <br>Raktáron</br>
+                        </b>
+                        <br><button id="MEA" onclick="kosarba(7000)"> kosárba </button>
+                    </div>
+
+                    <div class="JATEK col-sm-6">
+                        <img src="Witcher 3.jpg" alt="W3">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Witcher 3:Wild Hunt</strong>
+                        <b> <br></br>
+                            <br>Gyártó: CD Projekts Red</br>
+                            <br>Third Person AAA</br>
+                            <br>Singleplayer</br>
+                            <br>RPG</br>
+                            <br>ÁR 8000Ft</br>
+                        </b>
+                        <br><button id="W3" onclick="kosarba(8000)"> kosárba </button>
+                    </div>
+                    <div class=" JATEK col-sm-6">
+                        <img src="Red Dead Redemtion 2.jpg" alt="Red Dead Redemtion 2">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <strong>Red Dead Redemption 2</strong>
+                        <b> <br></br>
+                            <br>Gyártó: Rockstar Games</br>
+                            <br>Third Person Shooter/First Person Shooter</br>
+                            <br>Singleplayer/Multiplayer</br>
+                            <br>Open world Adventure</br>
+                            <br>ÁR 7000Ft</br>
+                        </b>
+                        <br><button id="RDR2" onclick="kosarba(13000)"> kosárba </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script src="funkciók.js">
+
+        </script>
+</body>
+
+</html>
